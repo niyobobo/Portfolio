@@ -4,7 +4,7 @@ import BioContainer from "../components/rightProfile";
 
 const Profile = () => {
   return (
-    <div className="content">
+    <div className="content col-2">
       <ProfileSide />
       <BioContainer />
     </div>

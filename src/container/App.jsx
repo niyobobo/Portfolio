@@ -9,12 +9,12 @@ class Container extends Component {
   render() {
     return (
       <div className="container">
-        <Navigation />
         <Router>
+          <Navigation />
           <Switch>
             <Route path="/" exact component={Welcome} />
             <Route path="/work" exact component={Work} />
-            <Route path="/resume" exact component={""} />
+            <Route path="/resume" exact component={Work} />
             <Route path="/profile" exact component={Profile} />
           </Switch>
         </Router>

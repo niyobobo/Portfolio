@@ -33,7 +33,7 @@ const BioContainer = () => {
         <li>Experience in developing standalone desktop applications</li>
         <li>Experience in Android SDK</li>
         <li>Experience working with Third-party API and Library</li>
-        <li>Experience working with agile methodology</li>
+        <li>Working with agile methodology</li>
       </ul>
     </div>
   );
