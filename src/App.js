@@ -1,14 +1,8 @@
-import React from 'react';
-import Navigation from './components/functional/navigation';
-import Contact from './components/functional/contact';
+import React from "react";
+import App from './container/App';
 
-function App() {
-  return (
-    <div className="container">
-      <Navigation />
-      <Contact />
-    </div>
-  );
+const MainApp = () => {
+  return <App />;
 }
 
-export default App;
+export default MainApp;
