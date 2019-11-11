@@ -1,13 +1,8 @@
-import React from 'react';
+import React from "react";
+import App from './container/App';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>My portfolio</h1>
-      </header>
-    </div>
-  );
+const MainApp = () => {
+  return <App />;
 }
 
-export default App;
+export default MainApp;
