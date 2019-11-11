@@ -13,7 +13,6 @@ class Container extends Component {
           <Navigation />
           <Switch>
             <Route path="/" exact component={Welcome} />
-            <Route path="/work" exact component={Work} />
             <Route path="/resume" exact component={Work} />
             <Route path="/profile" exact component={Profile} />
           </Switch>

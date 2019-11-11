@@ -6,7 +6,7 @@ const BioContainer = () => {
       <h2 className="m-0">Bio</h2>
       <hr />
       <p>
-        I am a Full-Stack software developer and technology enthusiast with deep
+        I am a Full-Stack software engineer and technology enthusiast with deep
         interest and experience in mobile application development. Constant
         growth is what I like in software development industry and it’s my main
         motivator that keeps me open to learn new technologies. I hold a{" "}
@@ -29,7 +29,7 @@ const BioContainer = () => {
           Deployment)
         </li>
         <li>Project management tools (Jira, Pivotal Tracker, Trello )</li>
-        <li>Experience working with version control Git</li>
+        <li>Experience working with version control (Git)</li>
         <li>Experience in developing standalone desktop applications</li>
         <li>Experience in Android SDK</li>
         <li>Experience working with Third-party API and Library</li>
