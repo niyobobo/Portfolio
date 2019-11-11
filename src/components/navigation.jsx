@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => (
-  <nav className="nav">
+  <div className="nav">
     <NavLink exact to="/" activeClassName="activeMenu">
       <i className="fas fa-user-alt"></i>
       <span className="block">About</span>
@@ -19,7 +19,7 @@ const Navigation = () => (
       <i className="fas fa-address-book"></i>
       <span className="block">Profile</span>
     </NavLink>
-  </nav>
+  </div>
 );
 
 export default Navigation;
