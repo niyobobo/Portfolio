@@ -9,6 +9,40 @@
     "github": "https://github.com/niyobobo",
     "twitter": "https://twitter.com/niyobobo_",
     "linkedin": "https://www.linkedin.com/in/niyobobo",
-    "instagram" : "https://www.instagram.com/niyobobo"
-  }
+    "instagram": "https://www.instagram.com/niyobobo"
+  },
+  "work": [
+    {
+      "title": "Software Engineer",
+      "company": "Andela",
+      "location": "Kigali - Rwanda",
+      "description": "Andela is a network of technology leaders dedicated to advancing human potential by powering today's teams and investing in tomorrow's leaders.",
+      "from": "March, 2019",
+      "to": "Present"
+    },
+    {
+      "title": "Android Developer",
+      "company": "Transax Ltd",
+      "location": "Nyarugenge, Kigali - Rwanda",
+      "description": "Developing a social platform - Hayihe android app that connects people to the places like Pubs, Restaurants, Night Club...where they can go and and have fun. \n-Contributing and re-design myWallet mobile application user interfaces",
+      "from": "September, 2018",
+      "to": "February, 2019"
+    },
+    {
+      "title": "Android Developer",
+      "company": "OnTime Services Limited",
+      "location": "Kicukiro, Kigali - Rwanda",
+      "description": "I was developing two android application that will be used in car-hailing, passenger and driver applications which connect passengers and drivers that are heading in the same direction so they can be able to share the journey.",
+      "from": "September, 2017",
+      "to": "September, 2018"
+    },
+    {
+      "title": "Android Developer",
+      "company": "Serve Ltd",
+      "location": "Kicukiro, Kigali - Rwanda",
+      "description": "My responsibilities included developing iShop android application, its API and web application",
+      "from": "May, 2017",
+      "to": "September, 2017"
+    }
+  ]
 }

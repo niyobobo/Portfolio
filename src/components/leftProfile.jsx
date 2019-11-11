@@ -23,16 +23,16 @@ const contact = () => (
       </span>
     </div>
     <div className="social-icon">
-      <a href="https://github.com/niyobobo">
+      <a className="github" href="https://github.com/niyobobo">
         <i className="fab fa-github"></i>
       </a>
-      <a href="https://www.linkedin.com/in/niyobobo/">
+      <a className="linkedin" href="https://www.linkedin.com/in/niyobobo/">
         <i className="fab fa-linkedin-in"></i>
       </a>
-      <a href="https://twitter.com/niyobobo_">
+      <a className="twitter" href="https://twitter.com/niyobobo_">
         <i className="fab fa-twitter"></i>
       </a>
-      <a href="https://www.instagram.com/niyobobo/">
+      <a className="instagram" href="https://www.instagram.com/niyobobo/">
         <i className="fab fa-instagram"></i>
       </a>
     </div>

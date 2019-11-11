@@ -9,10 +9,12 @@ class Welcome extends Component {
         <div className="welcome">
           <div className="intro">
             <h1 className="name">Jean Bosco</h1>
-            <h1 className="position">Full-stack software developer</h1>
+            <h1 className="position">Full-stack software Engineer</h1>
             <p>
-              Making your portfolio can be tough. Should it be simple or
-              Complex? Single page or multiple? What should you showcase first?
+              Four eyes see more than two. Let's work together to turn your idea
+              into a working product. <br />I am a passionate and a dreamer
+              software engineer who design influential brands and digital
+              experiences.
             </p>
             <Link to="/profile">
               Profile<i className="fas fa-arrow-right ml-2"></i>
@@ -20,10 +22,7 @@ class Welcome extends Component {
           </div>
           <div className="center-side">
             <img src={profile} alt="Jean Bosco" />
-            <p>
-              <Link>En</Link>
-              <Link>Fr</Link>
-            </p>
+            <p></p>
           </div>
           <div className="right-side">
             <p className="copyright">
