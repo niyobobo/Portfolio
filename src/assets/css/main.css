@@ -216,8 +216,40 @@ body {
   box-shadow: 0 0px 10px 0 rgb(0, 0, 0, 0.2);
 }
 
+.section {
+  overflow: scroll;
+  background: white;
+  border-radius: 5px;
+  padding: 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0 0px 10px 0 rgb(0, 0, 0, 0.2);
+}
+
+.section .heading {
+  float: left;
+  margin: 0;
+}
+
+.section a {
+  margin: 0;
+  float: right;
+  padding: 0.5em;
+  text-decoration: none;
+  color: rgba(1, 18, 117);
+}
+
+.row {
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .card {
-  margin: 1em;
+  margin: 1em 0;
   background: white;
   border-left: 0.5em solid rgba(10, 156, 47, 0.7);
   box-shadow: 0 0px 10px 0 rgb(0, 0, 0, 0.2);

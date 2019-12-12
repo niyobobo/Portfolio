@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import data from "../data/info.json";
 import Experience from "../components/experience.jsx";
+import data from "../data/info.json";
 
 const WorkExperience = () => {
   const [experiences, setExperiences] = useState([]);
@@ -12,11 +12,23 @@ const WorkExperience = () => {
   return (
     <div className="content">
       <div className="welcome">
-        <div className="section col-2">
-        {experiences.map(experience => {
-          return <Experience key={experience.company} data={experience} />;
-        })}
-      </div>
+        <div className="section">
+          <div className="row">
+            <h1 className="heading">Work experience</h1>
+            <a
+              href="https://drive.google.com/file/d/0B_be5_UhX-svb0F0R3RFcklVaVk1cFREMEtmWmZLa2VaRlVJ/view"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fas fa-download ml-2"></i>
+              Download my CV
+            </a>
+          </div>
+          <hr />
+          {experiences.map(experience => {
+            return <Experience key={experience.company} data={experience} />;
+          })}
+        </div>
       </div>
     </div>
   );
