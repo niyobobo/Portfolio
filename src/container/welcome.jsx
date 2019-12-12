@@ -16,7 +16,7 @@ class Welcome extends Component {
               software engineer who design influential brands and digital
               experiences.
             </p>
-            <Link className="btn" to="/profile">
+            <Link to="/profile">
               Profile<i className="fas fa-arrow-right ml-2"></i>
             </Link>
           </div>

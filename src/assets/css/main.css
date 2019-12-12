@@ -119,12 +119,10 @@ body {
   text-transform: uppercase;
 }
 
-.btn {
+.intro a {
   width: fit-content;
   padding: 0.75em 2em;
   color: red;
-  outline: none;
-  cursor: pointer;
   border: 2px solid red;
   text-decoration: none;
   text-transform: uppercase;
@@ -140,7 +138,7 @@ body {
   -o-transition: all 0.5s ease;
 }
 
-.btn:hover {
+.intro a:hover {
   color: white;
   background-position: left bottom;
 }
@@ -211,7 +209,6 @@ body {
   overflow: scroll;
   background: white;
   border-radius: 5px;
-  padding: 1em;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -219,28 +216,8 @@ body {
   box-shadow: 0 0px 10px 0 rgb(0, 0, 0, 0.2);
 }
 
-.section .heading {
-  float: left;
-  margin: 0;
-}
-
-.section a {
-  margin: 0;
-  float: right;
-  padding: 0.5em;
-  text-decoration: none;
-  color: rgba(1, 18, 117);
-}
-
-.row {
-  width: 100%;
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .card {
-  margin: 1em 0;
+  margin: 1em;
   background: white;
   border-left: 0.5em solid rgba(10, 156, 47, 0.7);
   box-shadow: 0 0px 10px 0 rgb(0, 0, 0, 0.2);
