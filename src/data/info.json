@@ -13,12 +13,20 @@
   },
   "work": [
     {
+      "title": "Senior Android Engineer",
+      "company": "ETINX",
+      "location": "Rome - Italy",
+      "description": "Develop and optimize the performance of two android mobile applications used for food orders, applications that are currently being used in Milan, Italy, and has more than 1000 downloads.",
+      "from": "June, 2020",
+      "to": "Present"
+    },
+    {
       "title": "Software Engineer",
       "company": "Andela",
       "location": "Kigali - Rwanda",
       "description": "Andela is a network of technology leaders dedicated to advancing human potential by powering today's teams and investing in tomorrow's leaders.",
       "from": "March, 2019",
-      "to": "Present"
+      "to": "April, 2020"
     },
     {
       "title": "Android Developer",
