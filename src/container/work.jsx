@@ -16,7 +16,7 @@ const WorkExperience = () => {
           <div className="row">
             <h1 className="heading">Work experience</h1>
             <a
-              href="https://drive.google.com/file/d/0B_be5_UhX-svb0F0R3RFcklVaVk1cFREMEtmWmZLa2VaRlVJ/view"
+              href="https://drive.google.com/file/d/1sW_jg5hYTiBX5KBqqx6qnDGG68LHUinw/view"
               target="_blank"
               rel="noopener noreferrer"
             >
